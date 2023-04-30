@@ -1,0 +1,109 @@
+@import 'variables';
+
+.header{
+    background-color: #24292e;
+    display: flex;
+    align-items: center;
+    padding: 20px 25px;
+
+    &-logo{
+        margin-right: 16px;
+        i{
+            font-size: 32px;
+            color: #fff;
+            transition: all ease .5s;
+            cursor: pointer;  
+            &:hover{
+                color: #afb8c1;
+            }   
+        }
+    }
+
+    &-search{
+        position: relative;
+        background-color: hsla(0,0%, 100%, .125);
+        width: 300px;
+        height: 30px;
+        margin-right: 26px;
+        border-radius: 7px;
+        align-items: center;
+        .input{
+            position: absolute;
+            top: 18%;
+            left: 9%;
+            font-size: 16px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            &::placeholder{
+                color: #fff;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 300;
+                transition: all ease .5s;
+                cursor: pointer;  
+                &:hover{
+                    color: #afb8c1;
+                }   
+            }
+        }
+
+        i{
+            right: 15px;
+            padding: 3px;
+            position: absolute;
+            top: 5px;
+            &:nth-child(1){
+                left: 0;
+            }
+            &:nth-child(3){
+                right: 0;
+            }
+
+        }
+    }
+
+    &-menu{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-left: 15px;
+
+        a{
+            color: #fff;
+            margin-right: 16px;
+            font-family: $my-font;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all ease .5s;
+            cursor: pointer;  
+            &:hover{
+                color: #afb8c1;
+            }   
+        }
+    }
+
+    &-right{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-left: auto;
+        gap: 15px;
+
+        i{
+            color: #ccc;
+            transition: all ease .5s;
+            cursor: pointer;  
+            &:hover{
+                color: #afb8c1;
+            }           
+        }
+        img{
+            border-radius: 100%;
+            transition: all ease .5s;
+            cursor: pointer;  
+            &:hover{
+                color: #afb8c1;
+            }  
+        }
+    }
+}
