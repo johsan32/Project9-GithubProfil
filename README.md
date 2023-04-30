@@ -10,7 +10,7 @@
 
 #### Responsive özellikte değildir. 1000px üzeri izleyiniz...
 
-#### link:
+#### link: https://github-johsan32.netlify.app/
 
 ![print-screen](screen.png)
 
