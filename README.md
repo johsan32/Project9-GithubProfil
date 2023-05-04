@@ -2,7 +2,6 @@
 
 ##github profil login ekranı oluşturuldu....
 
-# "uluSoyBuilding" html-css-scss proje çalışmasında üçüncü projem.
 
 ### .scss kod yapısı kullanılarak oluşturuldu.
 
